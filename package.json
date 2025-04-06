@@ -1,0 +1,31 @@
+{
+    "name": "stdlib-enhanced-ml-inference-engine",
+    "version": "1.0.0",
+    "description": "Enhanced Machine Learning Inference Engine",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+        "start": "http-server .",
+        "train": "node train/index.js",
+        "build": "webpack"
+    },
+    "dependencies": {
+        "@stdlib/array": "^0.3.3",
+        "@stdlib/blas-base-sdot": "^0.2.2",
+        "@stdlib/math-base-special-exp": "^0.2.4",
+        "@stdlib/ndarray": "^0.3.3",
+        "@stdlib/ndarray-base-transpose": "^0.2.2",
+        "@stdlib/random": "^0.3.3",
+        "@stdlib/random-base-randn": "^0.2.1",
+        "@stdlib/random-base-randu": "^0.2.1",
+        "@stdlib/random-shuffle": "^0.2.1",
+        "fs": "^0.0.1-security"
+    },
+    "devDependencies": {
+        "http-server": "^14.1.1",
+        "webpack": "^5.98.0",
+        "webpack-cli": "^6.0.1"
+    },
+    "author": "0PrashantYadav0",
+    "license": "MIT"
+}

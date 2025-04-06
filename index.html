@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Stdlib ML Inference Engine</title>
+  <style>
+    :root {
+      --primary-color: #4a6fa5;
+      --secondary-color: #166d3b;
+      --background-color: #f5f7fa;
+      --text-color: #333;
+      --card-bg: rgba(255, 255, 255, 0.9);
+    }
+    
+    body {
+      font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: var(--text-color);
+      background: linear-gradient(135deg, #6e8efb, #a777e3);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    
+    header {
+      text-align: center;
+      padding: 2rem 0;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: white;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .subtitle {
+      font-size: 1.2rem;
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 2rem;
+    }
+    
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      transition: transform 0.3s ease;
+    }
+    
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .card-title {
+      font-size: 1.5rem;
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--primary-color);
+      padding-bottom: 0.5rem;
+    }
+    
+    #results {
+      line-height: 1.8;
+    }
+    
+    .accuracy {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: var(--secondary-color);
+    }
+    
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Enhanced Machine Learning Inference Engine</h1>
+      <p class="subtitle">Powered by STDLIB and 0PrashantYadav0</p>
+    </header>
+    
+    <div class="card">
+      <h2 class="card-title">Iris Dataset Classification</h2>
+      <div id="results">
+        <p>Loading results...</p>
+      </div>
+    </div>
+    
+    <footer>
+      <p>© 2025 Stdlib Enhanced ML Inference Engine</p>
+    </footer>
+  </div>
+  <script type="module" src="dist/bundle.js"></script>
+</body>
+</html>
