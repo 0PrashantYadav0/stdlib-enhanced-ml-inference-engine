@@ -101,6 +101,18 @@ npm run train
 
 This will train the model on the Iris dataset and report the final accuracy in the terminal.
 
+## Demo
+
+### Website:
+
+[https://0prashantyadav0.github.io/stdlib-enhanced-ml-inference-engine](https://0prashantyadav0.github.io/stdlib-enhanced-ml-inference-engine)
+
+<img width="1439" alt="Screenshot 2025-04-06 at 3 28 35 PM" src="https://github.com/user-attachments/assets/f44b47a4-8dcd-43c6-b21a-0effd744c168" />
+
+### Representation of Training from Terminal:
+
+<img width="380" alt="Screenshot 2025-04-06 at 1 53 02 PM" src="https://github.com/user-attachments/assets/7182d2c4-1437-4fc2-aef2-7da808c0c44c" />
+
 ## License
 
 This project is licensed under the MIT License:
